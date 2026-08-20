@@ -1,0 +1,24 @@
+# Go
+/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# Docker
+docker-compose.override.yml
+.env
+
+# Миграции (только up/down, не временные)
+migrations/*.tmp
+
+# Прочее
+vendor/
